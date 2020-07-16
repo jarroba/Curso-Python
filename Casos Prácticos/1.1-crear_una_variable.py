@@ -1,0 +1,3 @@
+variable = "texto"
+
+print(variable)
