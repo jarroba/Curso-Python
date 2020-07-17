@@ -1,12 +1,16 @@
 # Curso de Python desde cero, con ejemplos
 
-#### Tema 1: Introducción[ :link:](https://jarroba.com/curso-de-python-1-introduccion/?target=_blank)
+Creado por:
+   + Ramón Invarato [:link:](https://www.linkedin.com/in/rinvarato/?target=_blank)
+   + Ricardo Moya  [:link:](https://www.linkedin.com/in/phdricardomoya/?target=_blank)
+
+#### Tema 1: Introducción [:link:](https://jarroba.com/curso-de-python-1-introduccion/?target=_blank)
 1.	Introduccion [:movie_camera:](https://youtu.be/WWOz5i6H6qA/?target=_blank)
 2.	Valor y Variable [:movie_camera:](https://youtu.be/-HUso2QJcb8/?target=_blank)
 3.	Input, Output [:movie_camera:](https://youtu.be/oxrI9rJJjOg/?target=_blank)
 4.	Comentarios [:movie_camera:](https://youtu.be/SMZItMcAAYU/?target=_blank)
 
-#### Tema 2: String - Tipos básicos de datos [:link:](XXX/?target=_blank)
+#### Tema 2: String - Tipos básicos de datos [:link:](https://jarroba.com/curso-de-python-2-tipos-basicos-de-datos/?target=_blank)
 1.	String [:movie_camera:](https://youtu.be/CZM2TBEANl0/?target=_blank)
 2.	Format [:movie_camera:](https://youtu.be/OTN9PK-paSw/?target=_blank)
 3.	Números: Int y Float [:movie_camera:](https://youtu.be/ThQZESrCs4o/?target=_blank)
@@ -15,7 +19,7 @@
 6.	Tablas de la Verdad [:movie_camera:](https://youtu.be/tdwn7Cex89E/?target=_blank)
 7.	Ejemplo - Lógica [:movie_camera:](https://youtu.be/dw9txwA5cTM/?target=_blank)
 
-#### Tema 3: List - Colecciones [:link:](XXX/?target=_blank)
+#### Tema 3: Colecciones [:link:](https://jarroba.com/curso-de-python-3-colecciones/?target=_blank)
 1.	Listas [:movie_camera:](https://youtu.be/0qPUWi0Bj8M/?target=_blank)
 2.	Secuencia  [:movie_camera:](https://youtu.be/AwfakWCAWnU/?target=_blank)
 3.	String a Lista - Lista a String [:movie_camera:](https://youtu.be/ixYXIHSVqPI/?target=_blank)
@@ -23,7 +27,7 @@
 5.	Tuplas - Return de Funciones [:movie_camera:](https://youtu.be/pTpTyUGKy6Y/?target=_blank)
 6.	Diccionarios [:movie_camera:](https://youtu.be/nXfnWKcdewc/?target=_blank)
 
-#### Tema 4: Estructuras de control de flujo [:link:](XXX/?target=_blank)
+#### Tema 4: Estructuras de control de flujo [:link:](https://jarroba.com/curso-de-python-4-estructuras-de-control-de-flujo/?target=_blank)
 1.	If - Sentencia Condicional [:movie_camera:](https://youtu.be/ozmsBHhy-SU/?target=_blank)
 2.	If - Sentencia Condicional - Alcance de la condicional If [:movie_camera:](https://youtu.be/A_GzfE28mPw/?target=_blank)
 3.	Ejemplo - If Sentencia Condicional [:movie_camera:](https://youtu.be/oji-US-QbEI/?target=_blank)
@@ -37,14 +41,14 @@
 11.	While - Alcance del Bucle Condicional [:movie_camera:](https://youtu.be/-70zfIfYme4/?target=_blank)
 12.	Ejemplo - While  [:movie_camera:](https://youtu.be/z7klWXaUq68/?target=_blank)
 
-#### Tema 5: Funciones [:link:](XXX/?target=_blank)
+#### Tema 5: Funciones [:link:](https://jarroba.com/curso-de-python-5-funciones/?target=_blank)
 1.	Funcion [:movie_camera:](https://youtu.be/iN5PrllXtMM/?target=_blank)
 2.	Función - Argumentos y Parámetros [:movie_camera:](https://youtu.be/pmRId9IS_o0/?target=_blank)
 3.	Función - Alcance de las funciones [:movie_camera:](https://youtu.be/pn3KwYBZBZE/?target=_blank)
 4.	Documentar Funciones [:movie_camera:](https://youtu.be/6RqXjocnCec/?target=_blank)
 5.	Función Lambda [:movie_camera:](https://youtu.be/4wsFeV6cn9k/?target=_blank)
 
-#### Tema 6: Bibliotecas/Paquetes [:link:](XXX/?target=_blank)
+#### Tema 6: Bibliotecas/Paquetes [:link:](https://jarroba.com/curso-de-python-6-bilbiotecas-paquetes/?target=_blank)
 1.	Paquetes y Módulos [:movie_camera:](https://youtu.be/5Rfyakq6lvc/?target=_blank)
 2.	Crear e importar nuestros propios paquetes [:movie_camera:](https://youtu.be/xojDgOSZs_Q/?target=_blank)
 3.	PIP - Administrador de Paquetes [:movie_camera:](https://youtu.be/LLsczhqYUxY/?target=_blank)
@@ -52,9 +56,9 @@
 5.	Librería Math [:movie_camera:](https://youtu.be/LRRAsXX6Qi8/?target=_blank)
 6.	Librería Datetime [:movie_camera:](https://youtu.be/S6_7nuMURz8/?target=_blank)
 
-#### Tema 7: Excepciones [:link:](XXX/?target=_blank)
+#### Tema 7: Excepciones [:link:](https://jarroba.com/curso-de-python-7-excepciones/?target=_blank)
 6.	Excepciones [:movie_camera:](https://youtu.be/1S5daVSj1LE/?target=_blank)
 
-#### Tema 8: Ficheros [:link:](XXX/?target=_blank)
+#### Tema 8: Ficheros [:link:](https://jarroba.com/curso-de-python-8-ficheros/?target=_blank)
 1.	Ficheros y Directorios [:movie_camera:](https://youtu.be/5H2zaim7uFE/?target=_blank)
 2.	Rutas [:movie_camera:](https://youtu.be/wktdEv8-LyI/?target=_blank)
