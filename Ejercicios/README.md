@@ -282,7 +282,36 @@ Ejemplo:
 
 ### Tema 7: Excepciones [:link:](https://jarroba.com/curso-de-python-7-excepciones)
 #### # Ejercicio [7.1-frutas.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/7.1-frutas.py)
+Crea un listado con cinco frutas.
+
+Pregunta al usuario por pantalla el índice del listado para devolvérselo. En caso de que devuelva una excepción tendrá que ser capturada y avisar al usuario del error.
+
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-frutas-www.jarroba.png">
+
 #### # Ejercicio [7.2-contador_limitado.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/7.2-contador_limitado.py)
+Crea un while True que esté siempre iterando y sumando a un contador +1 (e imprímelo).
+
+El ordenador donde lo ejecutamos está un poco limitado y no puede darse que el contador sea mayor que 9999. En ese momento se lanzará una excepción BufferError con un mensaje «Se ha superado los 9999 registros», ya que no se podrá sumar más. Si ejecutas con este código (ahora, sin avanzar más en el ejercicio) el programa terminará con un error en tiempo de ejecución.
+
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-contador-error-www.jarroba.com_.png">
+
+Pero no queremos terminar el programa, queremos después del bucle que continúe el programa. Para ello capturaremos la excepción fuera del bucle, será donde mostremos el mensaje de error con el siguiente formato: «Se ha detectado el error ‘{mensaje_del_buffererror}'»
+
+ Y para terminar fuera del bucle imprimiremos el texto: «el código continua»
+
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-contador-sin-error-www.jarroba.com_.png">
 
 ### Tema 8: Ficheros [:link:](https://jarroba.com/curso-de-python-8-ficheros)
 #### # Ejercicio [8.1-crear_fichero_y_leer_fichero.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/8.1-crear_fichero_y_leer_fichero.py)
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-fichero-www.jarroba.png">
+
+En una ubicación de tu ordenador crear un directorio y dentro un fichero
+
+Dentro del fichero escribir cinco líneas de número aleatorios del 1 al 10 (Parte 1)
+
+Luego leer ese fichero e imprimir cada línea por pantalla
+
+A continuación, añadir al final del fichero un par de líneas de texto (Parte 2)
+
+Volver a leer el fichero
+
