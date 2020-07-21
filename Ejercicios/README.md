@@ -9,7 +9,7 @@ Creado por:
 # Enunciado de los ejercicios:
 
 #### Tema 1: Introducción [:link:](https://jarroba.com/curso-de-python-1-introduccion)
-##### Ejercicio 1.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/1.1-input_print.py)
+#### #Ejercicio 1.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/1.1-input_print.py)
 Crea un programa que admita un texto por teclado y lo imprima.
 Pista: usa la documentación de Python 3 [https://docs.python.org/3/]([https://docs.python.org/3/]) para encontrar el método «input»
 Ejemplo de lo que tiene que mostrar por la consola:
@@ -18,7 +18,7 @@ Escribe un texto: hola
 hola
 ```
 ### Tema 2: String - Tipos básicos de datos [:link:](https://jarroba.com/curso-de-python-2-tipos-basicos-de-datos)
-#### Ejercicio 2.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.1-tienda_ropa.py)
+#### #Ejercicio 2.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.1-tienda_ropa.py)
 * Crea una variable «formato» con el texto: «{ropa} cuesta {numero} euros»
 * Crea dos variables con prendas de ropa
 * Crea otras dos variables con un número escrito
@@ -41,7 +41,7 @@ Pista: al final tendrás que leer algo así:
 Su carro de la compra tiene: Pantalón cuesta cinco euros y Camisa cuesta diez euros
 ```
 
-#### Ejercicio 2.2 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.2-almacen_vino.py)
+#### #Ejercicio 2.2 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.2-almacen_vino.py)
 Trabajamos para una empresa de vinos que tiene tres tipos de vinos tinto, blanco y rosado; cada tipo de vino se almacena en un almacén diferente y el vino se guarda en barriles en cada almacén.
 
 * Crear tres variables que representen almacenes de barriles para cada uno de los tres tipos de vinos. El valor de 
