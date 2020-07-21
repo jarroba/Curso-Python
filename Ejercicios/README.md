@@ -6,7 +6,7 @@ Creado por:
    
 <hr>
 
-# Ejercicios
+# Enunciado de los ejercicios:
 
 #### Tema 1: Introducción [:link:](https://jarroba.com/curso-de-python-1-introduccion)
 ##### Ejercicio 1.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/1.1-input_print.py)
@@ -17,8 +17,8 @@ Ejemplo de lo que tiene que mostrar por la consola:
 Escribe un texto: hola
 hola
 ```
-#### Tema 2: String - Tipos básicos de datos [:link:](https://jarroba.com/curso-de-python-2-tipos-basicos-de-datos)
-##### Ejercicio 2.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.1-tienda_ropa.py)
+### Tema 2: String - Tipos básicos de datos [:link:](https://jarroba.com/curso-de-python-2-tipos-basicos-de-datos)
+#### Ejercicio 2.1 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.1-tienda_ropa.py)
 * Crea una variable «formato» con el texto: «{ropa} cuesta {numero} euros»
 * Crea dos variables con prendas de ropa
 * Crea otras dos variables con un número escrito
@@ -41,7 +41,7 @@ Pista: al final tendrás que leer algo así:
 Su carro de la compra tiene: Pantalón cuesta cinco euros y Camisa cuesta diez euros
 ```
 
-##### Ejercicio 2.2 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.2-almacen_vino.py)
+#### Ejercicio 2.2 [:link:](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/2.2-almacen_vino.py)
 Trabajamos para una empresa de vinos que tiene tres tipos de vinos tinto, blanco y rosado; cada tipo de vino se almacena en un almacén diferente y el vino se guarda en barriles en cada almacén.
 
 * Crear tres variables que representen almacenes de barriles para cada uno de los tres tipos de vinos. El valor de 
@@ -55,20 +55,20 @@ Por otro lado, nos dice calculemos los litros de vino de cada almacén, sabiendo
 
 Por último, nos pide que imprimamos una tabla con las comparaciones de litros entre almacenes, si son iguales, menores o inferiores entre cada uno (pista de una posible plantilla: “{cantidad_litros_tinto} > {cantidad_litros_rosado} = {resultado_comparación}” y de su posible salida de consola: “100 > 10 = True”)
 
-#### Tema 3: Colecciones [:link:](https://jarroba.com/curso-de-python-3-colecciones)
+### Tema 3: Colecciones [:link:](https://jarroba.com/curso-de-python-3-colecciones)
 3.1.-
 
-#### Tema 4: Estructuras de control de flujo [:link:](https://jarroba.com/curso-de-python-4-estructuras-de-control-de-flujo)
+### Tema 4: Estructuras de control de flujo [:link:](https://jarroba.com/curso-de-python-4-estructuras-de-control-de-flujo)
 4.1.-
 
-#### Tema 5: Funciones [:link:](https://jarroba.com/curso-de-python-5-funciones)
+### Tema 5: Funciones [:link:](https://jarroba.com/curso-de-python-5-funciones)
 5.1.- 
 
-#### Tema 6: Bibliotecas/Paquetes [:link:](https://jarroba.com/curso-de-python-6-bilbiotecas-paquetes)
+### Tema 6: Bibliotecas/Paquetes [:link:](https://jarroba.com/curso-de-python-6-bilbiotecas-paquetes)
 6.1.-
 
-#### Tema 7: Excepciones [:link:](https://jarroba.com/curso-de-python-7-excepciones)
+### Tema 7: Excepciones [:link:](https://jarroba.com/curso-de-python-7-excepciones)
 7.1.-
 
-#### Tema 8: Ficheros [:link:](https://jarroba.com/curso-de-python-8-ficheros)
+### Tema 8: Ficheros [:link:](https://jarroba.com/curso-de-python-8-ficheros)
 8.1.-
