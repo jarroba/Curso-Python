@@ -7,19 +7,19 @@ suplentes = ["Marchena", "Torres", "Valdes", "Fabregas", "Mata", "Arbeloa",
              "Llorente", "Javi Martinez", "Silva", "Reina", "Navas"]
 
 """
-a)	Contar con cuantos delanteros jugo España la final del mundial. 
+1)	Contar con cuantos delanteros jugo España la final del mundial. 
    (lista delanteros)
 """
 
 
 """
-b)	Crear una nueva lista llamada “titulares” que contenga a los jugadores
+2)	Crear una nueva lista llamada “titulares” que contenga a los jugadores
     titulares de la selección Española. 
 """
 
 
 """
-c)	En el minuto 60’ del partido se realiza un cambio: entra Navas por Pedrito.
+3)	En el minuto 60’ del partido se realiza un cambio: entra Navas por Pedrito.
    En la lista de “titulares” hay que meter a Navas que esta en la lista de 
    “suplentes” y eliminar a Pedrito de la lista de titulares y meterle en 
    la de suplentes.
@@ -27,6 +27,6 @@ c)	En el minuto 60’ del partido se realiza un cambio: entra Navas por Pedrito.
 
 
 """
-d)	Crear una lista llamada “selección” que contenga a todos los jugadores de 
+4)	Crear una lista llamada “selección” que contenga a todos los jugadores de 
     la selección Española.
 """
