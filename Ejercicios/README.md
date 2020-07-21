@@ -9,8 +9,9 @@ Creado por:
 # Enunciado de los ejercicios:
 
 #### Tema 1: Introducción [:link:](https://jarroba.com/curso-de-python-1-introduccion)
-#### # Ejercicio 1.1 ([1.1-input_print.py])(https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/1
-.1-input_print.py)
+#### # Ejercicio 1.1 
+[1.1-input_print.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/1.1-input_print.py)
+
 Crea un programa que admita un texto por teclado y lo imprima.
 Pista: usa la documentación de Python 3 [https://docs.python.org/3/]([https://docs.python.org/3/]) para encontrar el método «input»
 Ejemplo de lo que tiene que mostrar por la consola:
