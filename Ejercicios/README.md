@@ -59,7 +59,34 @@ Por otro lado, nos dice calculemos los litros de vino de cada almacén, sabiendo
 Por último, nos pide que imprimamos una tabla con las comparaciones de litros entre almacenes, si son iguales, menores o inferiores entre cada uno (pista de una posible plantilla: “{cantidad_litros_tinto} > {cantidad_litros_rosado} = {resultado_comparación}” y de su posible salida de consola: “100 > 10 = True”)
 
 ### Tema 3: Colecciones [:link:](https://jarroba.com/curso-de-python-3-colecciones)
-3.1.-
+#### # Ejercicio [3.1-texto.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/3.1-texto.py)
+1.- Crea un texto de al menos 10 caracteres
+
+2.- Imprime la letra que está en el índice 7
+
+3.- Imprime las letras que están en el rango desde la posición 3 a la 8
+
+#### # Ejercicio [3.2-supermercado.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/3.2-supermercado.py)
+Copia el siguiente listado: lista_de_inicio
+
+```
+lista_de_inicio = [
+    "fruta y verduras",
+    "carnes y pescados",
+    "lácteos y huevos",
+    "dulces y pan",
+    "hogar y jardín",
+    "cuidado y limpieza"
+]
+```
+
+1.- Imprime la longitud del listado
+2.- Elimina el elemento «hogar y jardín» (pista: usa la posición)
+3.- Inserta en el listado el elemento: «entretenimiento y deportes»
+4.- Imprime por pantalla cada uno de los elementos (por posición) formateado con: «En el mercado hay <primero> pero no 
+<segundo>». Para obtener primero y segundo son cada una de las líneas separadas por » y » (pista: crea una lista desde un String con split. Ejemplo: «fruta y verduras».split(» y «) ).
+
+Ejemplo para el primer elemento: «fruta y verduras» (primero será «fruta» y segundo «verduras»). Tiene que imprimir: «En el mercado hay fruta, pero no verduras».
 
 ### Tema 4: Estructuras de control de flujo [:link:](https://jarroba.com/curso-de-python-4-estructuras-de-control-de-flujo)
 4.1.-
