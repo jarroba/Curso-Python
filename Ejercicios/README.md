@@ -88,6 +88,71 @@ lista_de_inicio = [
 
 Ejemplo para el primer elemento: «fruta y verduras» (primero será «fruta» y segundo «verduras»). Tiene que imprimir: «En el mercado hay fruta, pero no verduras».
 
+#### # Ejercicio [3.3_lista_campeones_del_mundo.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/3.3_lista_campeones_del_mundo.py)
+Dadas las siguientes variables que representan a los jugadores de la selección Española de fútbol que jugo el mundial
+ del 2010:
+ ```
+portero = "Casillas"
+defensas_titulares = ["Ramos", "Pique", "Puyol", "Capdevila"]
+centrocampistas = ["Xabi Alonso", "Busquets", "Xavi Hernandez", "Iniesta"]
+delanteros = ["Pedrito", "Villa"]
+suplentes = ["Marchena", "Torres", "Valdes", "Fabregas", "Mata", "Arbeloa",
+             "Llorente", "Javi Martinez", "Silva", "Reina", "Navas"]
+```
+
+Se pide:
+
+a)	Contar con cuantos delanteros jugo España la final del mundial. (lista delanteros)
+
+b)	Crear una nueva lista llamada “titulares” que contenga a los jugadores titulares de la selección Española.
+ 
+c)	En el minuto 60’ del partido se realiza un cambio: entra Navas por Pedrito. En la lista de “titulares” hay que meter a Navas que está en la lista de “suplentes” y eliminar a Pedrito de la lista de titulares y meterle en la de suplentes.
+
+d)	Crear una lista llamada “selección” que contenga a todos los jugadores de la selección Española.
+
+#### # Ejercicio [3.4_lista_campeones_del_mundo_dorsal.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/3.4_lista_campeones_del_mundo_dorsal.py)
+Dada la siguiente lista:
+ ```
+futbolistas = ["1 - Casillas", "15 - Ramos", "3 - Pique", "5 - Puyol",
+               "11 - Capdevila", "14 - Xabi Alonso", "16 - Busquets",
+               "8 - Xavi Hernandez", "18 - Pedrito", "6 - Iniesta",
+               "7 - Villa"]
+```
+Se pide ordenar la lista de forma descendente por el dorsal del futbolista. El resultado tendrá que ser el siguiente:
+
+ ```
+['18 - Pedrito', '16 - Busquets', '15 - Ramos', '14 - Xabi Alonso', '11 - Capdevila', '8 - Xavi Hernandez', '7 - Villa', '6 - Iniesta', '5 - Puyol', '3 - Pique', '1 - Casillas']
+```
+
+#### # Ejercicio [3.5_diccionario_campeones_del_mundo.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/3.5_diccionario_campeones_del_mundo.py)
+Dado el siguiente diccionario que representan a los jugadores de la selección Española de fútbol que jugo el mundial del 2010:
+
+ ```
+futbolistas = {
+    1: "Casillas", 15: "Ramos",
+    3: "Pique", 5: "Puyol",
+    11: "Capdevila", 14: "Xabi Alonso",
+    16: "Busquets", 8: "Xavi Hernandez",
+    18: "Pedrito", 6: "Iniesta",
+    7: "Villa"
+}
+```
+Se pide:
+
+a)	Contar el número de jugadores (elementos) en el diccionario.
+
+b)	Modificar el nombre de “Casillas” por “Iker Casillas” en el diccionario.
+
+c)	En el minuto 60’ del partido se realiza un cambio: entra “Navas” con el dorsal 22 por “Pedrito” (dorsal 18). En el minuto 87 se realiza otro cambio: entra “Fabregas” con el dorsal 10 por “Xabi Alonso” (dorsal 14). Hay que eliminar del diccionario a los dos jugadores titulares y añadir a los dos jugadores nuevos.
+
+d)	Crear una lista con los dorsales de los jugadores que hay en el diccionario.
+
+e)	Crear una lista con los nombres de los jugadores que hay en el diccionario.
+
+f)	Crear una copia del diccionario “futbolistas” llamada “campeones_del_mundo”.
+
+g)	Eliminar el diccionario “futbolistas”.
+
 ### Tema 4: Estructuras de control de flujo [:link:](https://jarroba.com/curso-de-python-4-estructuras-de-control-de-flujo)
 4.1.-
 
