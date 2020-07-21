@@ -145,7 +145,69 @@ Se pide:
 7. Eliminar el diccionario “futbolistas”.
 
 ### Tema 4: Estructuras de control de flujo [:link:](https://jarroba.com/curso-de-python-4-estructuras-de-control-de-flujo)
-4.1.-
+#### # Ejercicio [4.1-pan_y_chocolate.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/4.1-pan_y_chocolate.py)
+Crea un programa que pregunte por teclado (pista: input) si hay «chocolate» primero y si hay «harina» después (pista: bool(«Cualquier valor») es True o bool(«») es False).
+
+* Si ambos son ciertos imprimiremos «Cocinamos una tarta»
+
+* Si solo es cierto «chocolate» imprimiremos «Haremos bombones»
+
+* Si solo es cierto «harina» imprimiremos «Hornearemos pan»
+
+* Si ninguna es cierta imprimiremos «Hoy descanso»
+
+ ```
+¿Hay Chocolate?:
+¿Hay harina?: True
+Hornearemos pan
+```
+#### # Ejercicio [4.2-tablas_de_la_verdad.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/4.2-tablas_de_la_verdad.py)
+Crea un programa que cree las tablas de la verdad AND y OR.
+
+Para ello utiliza dos variables «a» y «b» que es vayan actualizando en cada iteración de un bucle «while» y que termine después de que «a» y «b» sean False (pista: comprobar solo con AND).
+
+E imprima cada resultado de la iteración con un formato legible como (no hace falta que los espacios estén perfectos, aunque puede ayudar tabular \t):
+
+ ```
+  A   o    B    = A or B
+True  o  True   = True
+True  o  False  = True
+False o  True   = True
+False o  False  = True
+```
+
+#### # Ejercicio [4.3-base_de_datos_banco.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/4.3-base_de_datos_banco.py)
+Trabajamos para un banco y tenemos que crear una base de datos para guardar dinero de nuestros usuarios. El programa nos preguntará eternamente (pista: while true) por el nombre del usuario (clave) y luego un dinero positivo o negativo (un valor numérico; valor). En caso de que el usuario ya exista habrá que sumar al dinero que hubiera el nuevo dinero introducido, sino existiera simplemente lo guardaríamos.
+
+Podremos imprimir el diccionario en cada iteración para saber que hemos introducido y qué se ha actualizado.
+
+ ```
+Usuario: Juan
+Dinero: 100
+{'Juan':100}
+Usuario: Maria
+Dinero: 80
+{'Juan':100, 'Maria': 80}
+Usuario: Juan
+Dinero: -30
+{'Juan':70, 'Maria': 80}
+```
+
+#### # Ejercicio [4.4.-diccionario_seleccion_futbol.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/4.4.-diccionario_seleccion_futbol.py)
+Dado el siguiente diccionario que representan a los jugadores de la selección Española de fútbol que jugo el mundial del 2010:
+ ```
+futbolistas = ["1 - Casillas", "15 - Ramos", "3 - Pique", "5 - Puyol",
+               "11 - Capdevila", "14 - Xabi Alonso", "16 - Busquets",
+               "8 - Xavi Hernandez", "18 - Pedrito", "6 - Iniesta",
+               "7 - Villa"]
+```
+Se pide:
+1. Recorriendo una sola vez el diccionario, añadir a otro diccionario llamado “pares” los jugadores cuya clave sea par 
+(clave: dorsal, valor: nombre) y en una lista llamada “impares” los nombres de los jugadores cuya clave sea impar.
+2. Orden por orden alfabético la lista “impares”.
+3. Dado el diccionario “pares”, crear otro diccionario “pares_al_reves” que tenga como clave el nombre del jugador y 
+como valor el dorsal del jugador.
+
 
 ### Tema 5: Funciones [:link:](https://jarroba.com/curso-de-python-5-funciones)
 5.1.- 
