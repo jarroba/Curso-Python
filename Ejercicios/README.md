@@ -181,7 +181,7 @@ Trabajamos para un banco y tenemos que crear una base de datos para guardar dine
 
 Podremos imprimir el diccionario en cada iteración para saber que hemos introducido y qué se ha actualizado.
 
- ```
+```
 Usuario: Juan
 Dinero: 100
 {'Juan':100}
@@ -195,7 +195,7 @@ Dinero: -30
 
 #### # Ejercicio [4.4.-diccionario_seleccion_futbol.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/4.4.-diccionario_seleccion_futbol.py)
 Dado el siguiente diccionario que representan a los jugadores de la selección Española de fútbol que jugo el mundial del 2010:
- ```
+```
 futbolistas = ["1 - Casillas", "15 - Ramos", "3 - Pique", "5 - Puyol",
                "11 - Capdevila", "14 - Xabi Alonso", "16 - Busquets",
                "8 - Xavi Hernandez", "18 - Pedrito", "6 - Iniesta",
@@ -210,13 +210,79 @@ como valor el dorsal del jugador.
 
 
 ### Tema 5: Funciones [:link:](https://jarroba.com/curso-de-python-5-funciones)
-5.1.- 
+#### # Ejercicio [5.1-cajero_automatico.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/5.1-cajero_automatico.py)
+Vamos a crear sistema de registros de un cajero automático.
+
+Crearemos un método para imprimir cada una de las líneas que tenga de parámetro «fecha» y «concepto» como obligatorios, y «cantidad» será opcional, sino se pasa será 0 y «movimiento» si no se pasa nada será «Domiciliación» que si en caso de que sea negativa la cantidad tiene que marcarse en la línea de algún modo, tiene que estar ordenado por «fecha»
+
+La entrada de los datos puede ser por consola o por un listado
+
+```
+[2020-01-01]      Domiciliación      Nómina               100€
+[2020-01-01]      Transferencia      Pagar concierto      -50€  <=Déficit
+[2020-01-01]      Intereses          Recibos              0€   
+```
 
 ### Tema 6: Bibliotecas/Paquetes [:link:](https://jarroba.com/curso-de-python-6-bilbiotecas-paquetes)
-6.1.-
+#### # Ejercicio [6.1-ruleta_casino.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/6.1-ruleta_casino.py)
+Realizar el juego de la ruleta de casino simplificada.
+
+<img src="https://jarroba.com/wp-content/uploads/2020/07/15162656651431693743roulette-wheel-clipart.med_.png">
+
+Nuestra consola nos pedirá apostar a un número (del 1 al 36, comprobar que no se introduzca otro) que no se a el 0 al pulsar la tecla Intro se realizará la jugada y nos devolverá si hemos ganado algo o no.
+
+* Si toca 0 habremos perdido
+* Si toca nuestro número habremos ganado
+* Si toca un color y nuestro número es de ese color habremos ganado también (indicar que ha tocado el color y no el 
+número)
+
+Al devolver la solución volverá a preguntar por otro número inmediatamente (el programa estará en bucle hasta que escribamos la palabra «salir»)
+
+Cada vez que se reinicie el juego, tendrá que salir un historial de las partidas ganadas y perdidas (el número jugado y si se ha ganado o perdido)
+
+Ejemplo de programa:
+
+#### # Ejercicio [6.2-videojuego.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/6.2-videojuego.py)
+Realizaremos un minijuego de combate contra la máquina donde se pedirá al usuario decidir si: atacar, defenderse o curarse.
+Habrá dos contadores de vida: el nuestro y el del enemigo, el que llegue a cero pierde.
+El enemigo elije al azar si nos ataca, se defiende o se cura.
+
+En caso de:
+* Si alguien se defiende de un ataque, entonces perderá 0 vidas
+* Si alguien ataca mientras el otro le ataca, entonces ambos perderán -2 vidas
+* Si alguien se cura mientras el otro le ataca, entonces el que no ataca perderá -2 vidas
+* Quien se cura recuperará +1 vida sea atacado o no
+
+Crearemos mínimo los métodos curarse y recibir_ataque para reutilizarlos (al que se le pasa el jugador y los valores necesarios)
+
+Ampliación: añade alguna función extra al juego (ideas: golpe fuerte que quite -4, hechizo que roba vida, otros medidores para los jugadores como maná o fatiga, etc.)
+
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-juego-www.jarroba.png">
+
+#### # Ejercicio [6.3-velocidad_de_escape.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/6.3-velocidad_de_escape.py)
+Nos han contratado en la Agencia Espacial Internacional, tienen intención de poner en órbita unos satélites, pensando en el futuro cuando lleguemos a Marte y a la Luna también querrán lanzar satélites desde ahí.
+
+Por lo que quieren una calculadora que introduciendo la masa de un planeta y su radio nos devuelva la «velocidad de escape» de cada planeta en concreto.
+
+Pistas:
+
+1. Nos documentamos https://es.wikipedia.org/wiki/Velocidad_de_escape
+2. Buscamos la fórmula que nos piden crear en la calculadora
+3. Localizamos las variables de la fórmula (G es Constante de gravitación universal, M es Masa del planeta y r es Radio
+ del planeta)
+4. Programamos la calculadora
+
+Una vez que lo tengamos, probaremos con los datos de los planetas que nos han pedido (Buscamos los datos en Internet): Tierra, Marte y Luna
+
+Es importante comprobar los datos que introduzca el usuario: si han metido números y no otra cosa, que no sean vacíos, etc.
+
+Ejemplo:
+
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-velocidad-de-escape-www.jarroba.com_.png">
 
 ### Tema 7: Excepciones [:link:](https://jarroba.com/curso-de-python-7-excepciones)
-7.1.-
+#### # Ejercicio [7.1-frutas.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/7.1-frutas.py)
+#### # Ejercicio [7.2-contador_limitado.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/7.2-contador_limitado.py)
 
 ### Tema 8: Ficheros [:link:](https://jarroba.com/curso-de-python-8-ficheros)
-8.1.-
+#### # Ejercicio [8.1-crear_fichero_y_leer_fichero.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/8.1-crear_fichero_y_leer_fichero.py)
