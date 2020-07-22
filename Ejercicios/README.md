@@ -336,5 +336,4 @@ En el fichero de futbolistas.txt, cada línea contiene datos de un jugador de fu
 
 
 |1|id|14|PartidosCompletos|27|Numligas|
-|---|---|---|---|---|---|
 |1|id|14|PartidosCompletos|27|Numligas|
