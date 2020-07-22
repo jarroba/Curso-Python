@@ -280,6 +280,10 @@ Ejemplo:
 
 <img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-velocidad-de-escape-www.jarroba.com_.png">
 
+#### # Ejercicio [6.4-datetime.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/6.4-datetime.py)
+Se pide crear un script que pida introducir por pantalla una fecha de nacimiento con formato “DD/MM/YYYY” y que imprima por pantalla los días que ha vivido desde su nacimiento hasta el instante de ejecutar el script y que también imprima por pantalla la edad en años.
+
+
 ### Tema 7: Excepciones [:link:](https://jarroba.com/curso-de-python-7-excepciones)
 #### # Ejercicio [7.1-frutas.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/7.1-frutas.py)
 Crea un listado con cinco frutas.
@@ -315,3 +319,20 @@ A continuación, añadir al final del fichero un par de líneas de texto (Parte 
 
 Volver a leer el fichero
 
+#### # Ejercicio [8.2-futbolistas.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/8.2-futbolistas.py)
+Dado el fichero “futbolistas.txt”  en el que en cada línea contiene datos de un futbolista, se pide:
+
+1. Implementar una función llamada “file_to_list(file_dir)” que dada la ruta del fichero futbolista.txt, devuelva una 
+lista en la que cada elemento corresponde con una línea del fichero; es decir, que cada elemento representa a los datos del futbolista.
+2. Implementar una función llamada “get_top_goals_players(list_players, top_n)” que dada la lista de futbolistas 
+devuelva en otra lista los “top_n” futbolistas más goleadores.
+3. Implementar una función llamada “get_players_by_team(list_players, team)” que dada la lista de futbolistas devuelva 
+en otra lista con todos los jugadores que han militado en el equipo que se pasa como parámetro (team), ordenados de forma descendente por el número de minutos que han jugado.
+4. Implementar una función llamada “write_list_to_file(list_to_write, file_dir)” que dada la lista que se pasa como 
+parámetro (list_to_write), escriba en el fichero que se pasa como parámetro “file_dir” cada elemento de la lista en una línea.
+5. Escribir las listas creadas en los puntos b y c en un fichero, utilizando la función implementada en el punto d.
+
+En el fichero de futbolistas.txt, cada línea contiene datos de un jugador de futbol y los datos están separados por el separador “::”. Los datos que hay en cada posición son los siguientes:
+
+|---|---|---|---|---|---|
+|1|id|14|PartidosCompletos|27|Numligas|
