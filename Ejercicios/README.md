@@ -334,5 +334,7 @@ parámetro (list_to_write), escriba en el fichero que se pasa como parámetro �
 
 En el fichero de futbolistas.txt, cada línea contiene datos de un jugador de futbol y los datos están separados por el separador “::”. Los datos que hay en cada posición son los siguientes:
 
+
+|1|id|14|PartidosCompletos|27|Numligas|
 |---|---|---|---|---|---|
 |1|id|14|PartidosCompletos|27|Numligas|
