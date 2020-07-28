@@ -4,6 +4,10 @@ Creado por:
    + Ramón Invarato [:link:](https://www.linkedin.com/in/rinvarato)
    + Ricardo Moya  [:link:](https://www.linkedin.com/in/phdricardomoya)
 
+
+#### Tema 0: Preparación del Entorno de desarrollo para Python [:link:](https://jarroba.com/curso-de-python-0-entorno-de-desarrollo-para-python/)
+1.	Instalación de Anaconda [:movie_camera:](https://youtu.be/ETB4Tj_Nmfs)
+
 #### Tema 1: Introducción [:link:](https://jarroba.com/curso-de-python-1-introduccion)
 1.	Introduccion [:movie_camera:](https://youtu.be/WWOz5i6H6qA)
 2.	Valor y Variable [:movie_camera:](https://youtu.be/-HUso2QJcb8)
