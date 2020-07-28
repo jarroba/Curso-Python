@@ -8,7 +8,7 @@ Creado por:
 
 ## Teoría del curso
 
-### Tema 0: Entorno de desarrollo Python [:link:](https://jarroba.com/curso-de-python-1-introduccion)
+### Tema 0: Entorno de desarrollo Python [:link:](https://jarroba.com/curso-de-python-0-entorno-de-desarrollo-para-python/)
 ### Tema 1: Introducción [:link:](https://jarroba.com/curso-de-python-1-introduccion)
 ### Tema 2: String - Tipos básicos de datos [:link:](https://jarroba.com/curso-de-python-2-tipos-basicos-de-datos)
 ### Tema 3: Colecciones [:link:](https://jarroba.com/curso-de-python-3-colecciones)
