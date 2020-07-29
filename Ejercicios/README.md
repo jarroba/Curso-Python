@@ -242,6 +242,8 @@ Cada vez que se reinicie el juego, tendrá que salir un historial de las partida
 
 Ejemplo de programa:
 
+<img src="https://jarroba.com/wp-content/uploads/2020/07/Ejercicio-ruleta-www.jarroba.png">
+
 #### # Ejercicio [6.2-videojuego.py](https://github.com/jarroba/Curso-Python/blob/master/Ejercicios/6.2-videojuego.py)
 Realizaremos un minijuego de combate contra la máquina donde se pedirá al usuario decidir si: atacar, defenderse o curarse.
 Habrá dos contadores de vida: el nuestro y el del enemigo, el que llegue a cero pierde.
